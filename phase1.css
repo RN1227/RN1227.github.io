@@ -33,10 +33,28 @@ body{
     text-align: center;
     line-height: 170px;
     
-  }
+}
 
   iframe{
       background-color: white;
-      width: 950px;
+      width: 100%;
       height: 400px;
+      text-align: center;
+}
+
+.button {
+    background-color: whitesmoke;
+    padding: 2¬ø0px;
+    border-radius: 20%;
+    font-family: 'Staatliches', serif;
+    width: 100px;
+    font-size: 20px;
+    
+}
+
+.button:hover {
+    background-color:red;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
+  
