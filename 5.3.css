@@ -1,0 +1,111 @@
+.c1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 130px;
+    background-color: blue;
+    text-align: center;
+    line-height: 27px;
+    display: inline-block;
+    position:absolute;
+    animation-name: c1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;   
+    
+}
+
+@keyframes c1 {
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {background-color:blue; left: 610px; top: 510px;}
+    50%  {background-color:blue; left:900px; top:0px;}
+    75%  {background-color:blue; left: 610px; top: 510px;}
+    100% {background-color:blue; left:0px; top:0px;}
+}
+
+.c2 {
+    height: 200px;
+    width: 200px;
+    border-radius: 130px;
+    background-color: greenyellow;
+    text-align: center;
+    line-height: 27px;
+    display: inline-block;
+    position:absolute;
+    animation-name: c2;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;   
+}
+
+@keyframes c2 {
+    0%   {background-color:yellow; left:1000px; top:0px;}
+    25%  {background-color:yellow; left:1000px; top: 450px;}
+    50%  {background-color:yellow; left:0px; top:450px;}
+    75%  {background-color:yellow; left:0px; top: 200px;}
+    100% {background-color:yellow; left:300px; top:0px;}
+}
+
+.c3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 130px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 27px;
+    display: inline-block;
+    position:absolute;
+    animation-name: c3;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;   
+}
+
+@keyframes c3 {
+    0%   {background-color:whitesmoke; left:0px; top:0px;}
+    100%  {background-color:whitesmoke; left: 1000px; top: 0px;}
+   
+}
+
+.c4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 130px;
+    background-color: whitesmoke;
+    text-align: center;
+    line-height: 27px;
+    display: inline-block;
+    position:absolute;
+    animation-name: c4;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;   
+}
+
+@keyframes c4 {
+    0%   {background-color:green; left:500px; top:0px;}
+    25%  {background-color:green; left:1000px; top: 300px;}
+    50%  {background-color:green; left:500px; top:500px;}
+    75%  {background-color:green; left:0px; top: 200px;}
+    100% {background-color:green; left:300px; top:0px;}
+}
+
+    body {
+    background-color: black;
+}
+
+.bg {
+    position: sticky;
+    color: black;
+    display: inline-block;
+    font-family: 'Koulen';
+    font-size: 30px;
+    text-align: center;
+}
