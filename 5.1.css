@@ -1,7 +1,22 @@
-p {
-    color: red;
+img {
+    width:fit-content;
+    height: fit-content;
 }
 
 body {
-    background-color: black;
+    background-image: url("https://wallpaperaccess.com/full/4910984.gif"); 
+}
+
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+
+p {
+    background-color: black; opacity: 75%;
+    font-family: "Hacked";
+    margin-left: 1000px;
+    font-size: 24px;
+    color: white;
+    width: fit-content;
 }
