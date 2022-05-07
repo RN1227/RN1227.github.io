@@ -11,13 +11,17 @@
 }
 
 #para3 {
-    font-family: 'Yantramanav', serif;
+    font-family: 'Russo One', sans-serif;
+    
     
 }
 
 #para4 {
-    font-family: 'Secular One', serif;
-    
+    font-family: 'DotGothic16', sans-serif;
+    color:blueviolet;
+    margin-left: 540px;
+    text-align: right;
+    line-height: 25px;
 }
 
 #diverged {
