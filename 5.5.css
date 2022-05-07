@@ -23,9 +23,20 @@ body {
     border-radius: 80px;
     color: black;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 140px;
     margin-left: 400px;
     position: absolute;
+    animation-name: cloud;
+    animation-duration: 15s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; 
+}
+
+@keyframes cloud {
+    0% {margin-left: 400px;}
+    100%   {margin-left: 600px;}
 }
     
 #cloud2 {
@@ -34,9 +45,20 @@ body {
     border-radius: 80px;
         color: black;
         text-align: center;
-        margin-top: 150px;
+        margin-top: 100px;
         margin-left: 800px;
         position: absolute;
+        animation-name: cloud2;
+    animation-duration: 15s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; 
+}
+
+@keyframes cloud2 {
+ 0% {margin-left: 800px;}
+    100%   {margin-left: 1000px;}
 }
         
 #sea {
@@ -49,7 +71,17 @@ body {
     margin-top: 500px;
     position: absolute;
     word-wrap: break-word;
-   
+    animation-name: sea;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; 
+}
+
+@keyframes sea {
+    0%     {margin-top: 500px;}
+    100%   {margin-top: 480px;}
 }
 #sea1 {
     padding: 20px; 
@@ -61,7 +93,17 @@ body {
     margin-top: 500px;
     position: absolute;
     word-wrap: break-word;
+    animation-name: sea1;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; 
    
+}
+@keyframes sea1 {
+    0%     {margin-top:500px;}
+    100%   {margin-top: 480px;}
 }
 #sea2 {
     padding: 20px; 
@@ -73,7 +115,17 @@ body {
     margin-top: 500px;
     position: absolute;
     word-wrap: break-word;
+    animation-name: sea2;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; 
    
+}
+@keyframes sea2 {
+    0%     {margin-top:500px;}
+    100%   {margin-top: 480px;}
 }
 #sea3 {
     padding: 20px; 
@@ -85,7 +137,17 @@ body {
     margin-top: 500px;
     position: absolute;
     word-wrap: break-word;
+    animation-name: sea3;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; 
    
+}
+@keyframes sea3 {
+    0%     {margin-top:500px;}
+    100%   {margin-top: 480px;}
 }
 #sea4 {
     padding: 20px; 
@@ -96,6 +158,18 @@ body {
     margin-top: 500px;
     position: absolute;
     white-space:nowrap;
-    
+    animation-name: sea4;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse; 
    
 }
+@keyframes sea4 {
+    0%     {margin-top:500px;}
+    100%   {margin-top: 480px;}
+}
+   
+
+
