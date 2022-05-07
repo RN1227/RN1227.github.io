@@ -87,3 +87,15 @@ body {
     word-wrap: break-word;
    
 }
+#sea4 {
+    padding: 20px; 
+    background-color: rgba(52, 49, 224, 0.719);
+    margin-left: 1160px;
+    color: black;
+    text-align: center;
+    margin-top: 500px;
+    position: absolute;
+    white-space:nowrap;
+    
+   
+}
