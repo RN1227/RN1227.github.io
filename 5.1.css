@@ -20,3 +20,56 @@ p {
     color: white;
     width: fit-content;
 }
+
+
+#para1 {
+    animation-name: p1;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;   
+}
+
+@keyframes p1 {
+    0%   {background-color:rgba(0, 0, 0, 0); left:0px; top:0px; color: rgba(255, 255, 255, 0);}
+    100%  {background-color:rgba(0, 0, 0, 0.664); left: 1000px; top: 0px;color: white;}
+}
+
+#para2 {
+    animation-name: p2;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+@keyframes p2 {
+    0%   {background-color:rgba(0, 0, 0, 0); left:0px; top:0px; color: rgba(255, 255, 255, 0);}
+    100%  {background-color:rgba(0, 0, 0, 0.664); left: 1000px; top: 0px;color: white;}
+}
+#para3 {
+    animation-name: p3;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+@keyframes p3 {
+    0%   {background-color:rgba(0, 0, 0, 0); left:0px; top:0px; color: rgba(255, 255, 255, 0);}
+    100%  {background-color:rgba(0, 0, 0, 0.664); left: 1000px; top: 0px;color: white;}
+}
+
+#para4 {
+    animation-name: p4;
+    animation-duration: 3s;
+    animation-timing-function:linear;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+@keyframes p4    {
+    0%   {background-color:rgba(0, 0, 0, 0); left:0px; top:0px; color: rgba(255, 255, 255, 0);}
+    100%  {background-color:rgba(0, 0, 0, 0.664); left: 1000px; top: 0px;color: white;}
+}
