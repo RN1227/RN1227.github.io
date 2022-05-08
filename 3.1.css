@@ -1,23 +1,29 @@
 #para1 {
     color:deepskyblue;
     border-left-style:dotted;
-    
+    margin-left: 300px;
     
     
 }
 #para2 {
     color:crimson;
     border-left-style: double;
+    position: absolute;
+    margin-left: 550px;
 }
 
 #para3 {
     color: chartreuse;
     border-left-style:outset;
+    margin-left: 30px;
+    
+   
 }
 
 #para4 {
     color: darkgreen;
     border-left-style:ridge;
+    margin-left: 300px;
 }
 
 
