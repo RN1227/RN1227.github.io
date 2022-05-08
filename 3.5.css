@@ -18,3 +18,35 @@
     border-width: 50px;
     border-color:darkgreen;
 }
+
+#para1 {
+    margin-top: 200px;
+    width: fit-content;
+    border-style:double;
+    border-width: 40px;
+    border-color: rgb(0, 165, 41);
+}
+
+#para2 {
+    margin-top: 400px;
+    width: fit-content;
+    border-style:ridge;
+    border-width: 40px;
+    border-color: rgb(210, 212, 57);
+}
+
+#para3 {
+    margin-top: 600px;
+    width: fit-content;
+    border-style:dotted;
+    border-width: 40px;
+    border-color: rgb(80, 233, 9);
+}
+
+#para4 {
+    margin-top: 800px;
+    width: fit-content;
+    border-style:groove;
+    border-width: 40px;
+    border-color: yellow;
+}
