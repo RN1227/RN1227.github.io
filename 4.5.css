@@ -1,0 +1,160 @@
+p {
+    font-family:'Syne Mono', monospace;
+    font-size: 11px;
+    
+}
+
+#para1 {
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    color:gold;
+}
+
+
+#para2 {
+    margin-left: 310px;
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color:cornflowerblue;
+    
+    
+}
+
+#para3 {
+    margin-left: 620px;
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color:cornflowerblue;
+    
+}
+
+#para4 {
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: 930px;
+    color:cornflowerblue;
+}
+
+#para5 {
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 200px;
+    color:gold;
+}
+
+
+#para6 {
+    margin-left: 310px;
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 200px;
+    color:gold;
+    
+    
+}
+
+#para7 {
+    margin-left: 620px;
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 200px;
+    color:cornflowerblue;
+    
+}
+
+#para8 {
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: 930px;
+    color:cornflowerblue;
+    margin-top: 200px;
+    
+}
+
+#para9 {
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 400px;
+    color:gold;
+    
+}
+
+
+#para10 {
+    margin-left: 310px;
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 400px;
+    color:gold;
+    
+    
+}
+
+#para11 {
+    margin-left: 620px;
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 400px;
+    color:gold;
+    
+    
+}
+
+#para12 {
+    text-transform: lowercase;
+    line-height: 30px;
+    position: absolute;
+    display:inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: 930px;
+    color:cornflowerblue;
+    margin-top: 400px;
+}
+
