@@ -1,0 +1,49 @@
+p {
+    font-family:'Syne Mono', monospace;
+}
+
+#para1 {
+    text-transform: lowercase;
+    text-align: center;
+    line-height: 10px;
+    position: absolute;
+    letter-spacing: 1px;
+    color: rgb(187, 203, 255);
+   
+}
+
+#para2 {
+    text-transform: lowercase;
+    line-height: 20px;
+    position: absolute;
+    margin-left: 250px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    color: rgb(126, 155, 250);
+    
+}
+
+#para3 {
+    text-transform: uppercase;
+    position: absolute;
+    margin-left: 500px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-left: 80px;
+    color: rgb(83, 122, 250);
+}
+
+#para4 {
+    text-transform: uppercase;
+    position: absolute;
+    margin-left:840px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-left: 150px;
+    width: 500px;
+    color: rgb(0, 60, 255);
+    
+}
